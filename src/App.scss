@@ -17,12 +17,15 @@
   button {
     margin-bottom: 5px;
     padding: 5px;
-    background: red;
+    background: #626262;
     border: none;
     color: white;
     font-size: 16px;
     line-height: 20px;
     cursor: pointer;
+    &:hover {
+      background: red;
+    }
   }
 }
 .list-item {
