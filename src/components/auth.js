@@ -47,7 +47,7 @@ function Auth() {
                     thumb: el.snippet.thumbnails.medium.url
                   })
                 });
-                sortedInfo.slice().sort((a, b) => b.date - a.date);
+                sortedInfo.sort((a, b) => a.date - b.date);
                 console.log("Items:", items);
                 console.log("Sorted info:", sortedInfo);
                 if(videos.length === 0) {

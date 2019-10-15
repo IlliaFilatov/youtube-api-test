@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.scss';
 import Auth from './components/auth';
-import { useSelector } from 'react-redux';
 import VideoList from './components/videoList';
 
 

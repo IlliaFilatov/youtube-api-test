@@ -13,7 +13,7 @@ export default function VideoList() {
         videos.map((el, index) => {
           return (
             <div className="list-item">
-              <img className="list-item__thumb" src={el.thumb}/>
+              <img className="list-item__thumb" src={el.thumb} alt=""/>
               <div className="list-item__info">
                 <div className="list-item__info__title">{el.title}</div>
                 <div className="list-item__info__date">
